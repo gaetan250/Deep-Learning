@@ -1,4 +1,6 @@
-datasets
-pillow 
-pyarrow 
+torch
 torchvision
+scikit-learn
+matplotlib
+tqdm
+
