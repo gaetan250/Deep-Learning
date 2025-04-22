@@ -1,6 +1,10 @@
-torch
-torchvision
-scikit-learn
-matplotlib
-tqdm
-
+matplotlib==3.10.1
+numpy==2.2.5
+opencv-python==4.11.0.86
+Pillow==11.2.1
+scikit-learn==1.6.1
+seaborn==0.13.2
+streamlit==1.44.1
+torch==2.6.0
+torchvision==0.21.0
+pickle5==0.0.11
