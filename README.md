@@ -42,7 +42,7 @@ Deep-Learning/
 └── README.md    
 
 
-## 🚀 Étapes pour exécuter le projet
+##  Étapes pour exécuter le projet
 
 ### 1. Cloner le dataset Hugging Face
 
@@ -53,8 +53,19 @@ git lfs install
 git clone https://huggingface.co/datasets/HES-XPLAIN/SportsImageClassification  
 ```
 
+### 2. Installation des différents packages
 Nous vous conseillons de créer un environnement virtuelle pui d'y installer les différentes dépendances.
 
 ```bash
 pip install -r requirements.txt
+```
+
+### 3. Model et Application 
+
+Pour les modèles et les visualisations, vous pouvez directement exécuter le notebook **deep.ipynb**
+
+En ce qui concerne l'application, la commande suivante vous l'ouvrira directement:
+
+``` bash
+streamlit run app.py 
 ```
