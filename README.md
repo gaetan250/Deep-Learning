@@ -34,7 +34,6 @@ Deep-Learning/
 │   ├── train/                    
 │   ├── valid/                    
 │   └── test/                     
-│
 ├── app.py                       
 ├── deep.ipynb                  
 ├── class_names.pkl
@@ -47,10 +46,15 @@ Deep-Learning/
 
 ### 1. Cloner le dataset Hugging Face
 
-Assure-toi d’avoir Git LFS :
+Assurez-vous d’avoir Git LFS :
 
 ```bash
 git lfs install
 git clone https://huggingface.co/datasets/HES-XPLAIN/SportsImageClassification  
+```
 
+Nous vous conseillons de créer un environnement virtuelle pui d'y installer les différentes dépendances.
+
+```bash
 pip install -r requirements.txt
+```
